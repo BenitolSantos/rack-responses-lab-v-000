@@ -1,6 +1,6 @@
 require 'pry'
 class Application
-  def call
+  def call(time)
     #using Time ruby command.
     if Time.now.hour < 12
       "Good Morning!"
