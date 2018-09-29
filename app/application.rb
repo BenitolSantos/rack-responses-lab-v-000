@@ -4,6 +4,7 @@ class Application
   def app
     #using Time ruby command.
     if Time.now.hour > 12
+    elsif Time.now
     else
     end
   end
