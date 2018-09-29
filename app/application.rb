@@ -4,7 +4,6 @@ class Application
     #Don't worry about the env input. This holds all of the request info in it and we will use it later!
     resp = Rack::Response.new
     #initiates rack
-    binding.pry
     if Time.now.hour < 12
       #using Time ruby command.
       resp.write "Good Morning!"
