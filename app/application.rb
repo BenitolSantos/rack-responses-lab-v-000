@@ -1,10 +1,11 @@
 require 'pry'
 class Application
-  binding.pry
   def app
     #using Time ruby command.
     if Time.now.hour > 12
-    elsif Time.now
+      "Good Morning!"
+    elsif Time.now.hour < 12
+      "Good Afternoon!"
     else
     end
   end
