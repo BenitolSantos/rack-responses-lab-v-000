@@ -2,6 +2,7 @@ require 'pry'
 class Application
   binding.pry
   def app
-    if Time.utc()
+    #using Time ruby command.
+    if Time.()
   end
 end
