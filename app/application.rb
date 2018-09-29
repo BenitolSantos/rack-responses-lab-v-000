@@ -6,9 +6,9 @@ class Application
     binding.pry
     #using Time ruby command.
     if Time.now.hour < 12
-      "Good Morning!"
+        resp.write "Good Morning!"
     elsif Time.now.hour > 12
-      "Good Afternoon!"
+      resp.write "Good Afternoon!"
     else
     end
     resp.finish #always put this at the end.
