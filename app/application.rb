@@ -11,6 +11,6 @@ class Application
       "Good Afternoon!"
     else
     end
-    resp.finish
+    resp.finish #always put this at the end.
   end
 end
