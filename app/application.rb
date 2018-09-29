@@ -1,4 +1,4 @@
 class Application
-  def app 
+  def app
   end
 end
