@@ -1,6 +1,6 @@
 require 'pry'
 class Application
-  def call(time)
+  def call(env)
     binding.pry
     #using Time ruby command.
     if Time.now.hour < 12
